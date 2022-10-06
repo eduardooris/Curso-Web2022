@@ -23,3 +23,7 @@ console.log(aprovados)
 delete aprovados[1]
 
 console.log(aprovados[1])
+console.log(aprovados[2])
+
+aprovados = ["bia", "carlos", "ana"]
+aprovados.splice(1, 1)
