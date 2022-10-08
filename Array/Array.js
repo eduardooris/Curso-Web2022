@@ -26,4 +26,5 @@ console.log(aprovados[1])
 console.log(aprovados[2])
 
 aprovados = ["bia", "carlos", "ana"]
-aprovados.splice(1, 1)
+aprovados.splice(1, 2, "Elemento1", "Elemento2") //Adiciona e remove elementos
+console.log(aprovados)
